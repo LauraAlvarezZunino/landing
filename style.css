@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 10px;
+    padding: 10px 30px;
     padding-bottom: 0;
     margin: 0 auto;
 }
@@ -23,27 +23,28 @@ section {
     align-items: center;
     width: 100%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px 30px;
     
 }
 
 .header div:first-child {
     flex: 1; 	/*Ocupa espacio proporcional (base cero).*/
     color: #565654;
-    margin:50px 50px ;
+    margin:50px 0px ;
     width: 60vw;
-    margin-left: 10vw;
+   margin-left: 15%;
 }
 
 .header div:last-child {
     display: flex;
     justify-content: center;
     width: 40vw;
+    margin-right: 5%;
 }
 
 .header img {
-    height: auto;
-    padding: 30px;
+    height: 300px;
+    padding: 10px;
 }
 
 .header button {
@@ -111,4 +112,3 @@ footer {
     height: auto;
     width: 32px;
 }
-
