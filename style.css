@@ -28,7 +28,7 @@ section {
 }
 
 .header div:first-child {
-    flex: 1; 	/*Ocupa espacio proporcional (base cero).*/
+    flex: 1; 	/*altera dimensiones y ocupa el espacio disp*/
     color: #565654;
     margin:50px 0px ;
     min-width: 300px;
